@@ -1,0 +1,89 @@
+Bank Reconciliation Best Practices
+
+1. Regular Reconciliation
+- Perform bank reconciliations at least monthly
+- Complete reconciliations within 5 business days of receiving bank statements
+- Document all reconciliation activities
+
+2. Transaction Matching
+- Match transactions by date, amount, and description
+- Pay special attention to transactions occurring at month-end
+- Verify that all cleared checks are properly recorded
+- Check for duplicate entries
+
+3. Common Discrepancies
+- Outstanding checks
+- Deposits in transit
+- Bank fees and charges
+- Interest earned
+- NSF checks
+- Direct deposits
+- Electronic transfers
+
+4. Verification Steps
+- Compare beginning balances
+- Match all cleared transactions
+- Investigate any differences
+- Document all adjustments
+- Obtain approval for significant adjustments
+- Maintain audit trail
+
+5. Best Practices for Different Transaction Types
+a) Checks:
+- Verify check numbers are sequential
+- Investigate any missing check numbers
+- Confirm all voided checks are properly recorded
+
+b) Deposits:
+- Match deposit slips with bank statements
+- Verify all deposits are recorded in the correct period
+- Check for any unrecorded deposits
+
+c) Electronic Transactions:
+- Verify all ACH transactions
+- Confirm wire transfers
+- Check for any unauthorized transactions
+
+6. Documentation Requirements
+- Keep copies of bank statements
+- Maintain reconciliation worksheets
+- Document all adjustments and their approvals
+- Retain supporting documentation for at least 7 years
+
+7. Internal Controls
+- Segregate duties between recording and reconciling
+- Require dual approval for adjustments
+- Implement automated reconciliation tools
+- Regular review by management
+
+8. Common Issues to Watch For
+- Timing differences
+- Recording errors
+- Missing transactions
+- Duplicate entries
+- Transposition errors
+- Unauthorized transactions
+
+9. Resolution Process
+- Identify the nature of the discrepancy
+- Gather supporting documentation
+- Make necessary adjustments
+- Document the resolution
+- Obtain required approvals
+- Update records accordingly
+
+10. Quality Assurance
+- Regular review of reconciliation process
+- Periodic testing of controls
+- Staff training and updates
+- Process improvement initiatives
+
+Bank Reconciliation Best Practices – Expert Sources
+
+1. Segregate duties: The person preparing the reconciliation should not be the one authorizing transactions (ICAI, Blogs).
+2. Use digital copies of bank statements and automate data import to minimize manual entry errors (YouTube: FinTech Academy).
+3. Investigate all discrepancies immediately; do not carry forward unresolved items month to month (ICAI, Blogs).
+4. Reconcile all bank accounts, not just the main operating account (ICAI).
+5. Document all adjustments with supporting evidence (ICAI, Blogs).
+6. For recurring discrepancies (e.g., timing differences), maintain a log and review trends over time (YouTube: CA Ravi Taori).
+7. Stay updated with the latest accounting standards and regulatory requirements (ICAI). 

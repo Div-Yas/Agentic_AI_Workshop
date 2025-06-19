@@ -1,0 +1,11 @@
+date,description,amount,transaction_id
+2024-01-01,Monthly Salary Payment,5000.00,BOOK001
+2024-01-02,Stationery Purchase,-100.00,BOOK002
+2024-01-03,Project Payment from Client,2500.00,BOOK003
+2024-01-04,Monthly Internet Service,-175.00,BOOK004
+2024-01-05,Annual Software License,-199.00,BOOK005
+2024-01-06,Professional Services,1500.00,BOOK006
+2024-01-07,Monthly Office Space,-2000.00,BOOK007
+2024-01-08,Computer Equipment,-500.00,BOOK008
+2024-01-09,Client Payment Refund,-300.00,BOOK009
+2024-01-10,Consulting Services Revenue,3500.00,BOOK010 

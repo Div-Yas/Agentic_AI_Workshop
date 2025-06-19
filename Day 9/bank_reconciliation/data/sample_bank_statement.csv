@@ -1,0 +1,11 @@
+date,description,amount,transaction_id
+2024-01-01,Salary Deposit,5000.00,BANK001
+2024-01-02,Office Supplies,-100.00,BANK002
+2024-01-03,Client Payment,2500.00,BANK003
+2024-01-04,Internet Bill,-75.00,BANK004
+2024-01-05,Software Subscription,-199.00,BANK005
+2024-01-06,Consulting Fee,1500.00,BANK006
+2024-01-07,Office Rent,-2000.00,BANK007
+2024-01-08,Equipment Purchase,-500.00,BANK008
+2024-01-09,Client Refund,-300.00,BANK009
+2024-01-10,Service Revenue,3500.00,BANK010 

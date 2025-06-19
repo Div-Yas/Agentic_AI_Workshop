@@ -1,0 +1,149 @@
+unzip bank_reconciliation.zip
+cd bank_reconciliation
+python3 -m venv venv
+.\venv\Scripts\Activate.ps1   # or source venv/bin/activate on non-Windows
+pip install -r requirements.txt
+
+# Bank Reconciliation AI Agent
+
+## Overview
+This project automates bank reconciliation using GenAI-powered agents and Retrieval-Augmented Generation (RAG). It matches transactions, detects discrepancies, suggests fixes, and leverages a knowledge base for best practices and standards.
+
+---
+
+## Features
+- **AI Agents** for transaction matching, discrepancy detection, and auto-fix suggestions.
+- **RAG**: Uses a vector database and knowledge base for context-aware answers.
+- **Full Stack**: Streamlit frontend, FastAPI backend.
+- **Sample Data**: Includes example bank and book statements.
+
+---
+
+## Folder Structure
+
+```
+bank_reconciliation/
+├── frontend/
+│   ├── app.py
+│   └── pages/
+│       └── agent.py
+├── backend/
+│   ├── api.py
+│   ├── reconciliation.py
+│   ├── config.py
+│   ├── agents/
+│   │   ├── discrepancy_detector_agent.py
+│   │   ├── auto_fix_suggestion_agent.py
+│   │   ├── reconciliation_knowledge_agent.py
+│   │   └── transaction_matching_agent.py
+│   └── scripts/
+│       └── initialize_knowledge_base.py
+├── data/
+│   ├── sample_bank_statement.csv
+│   ├── sample_books.csv
+│   └── knowledge_base/
+│       ├── accounting_standards.txt
+│       ├── bank_reconciliation_best_practices.txt
+│       └── chroma_db/
+│           └── chroma.sqlite3
+```
+
+---
+
+## How It Works
+
+### Agents
+- **TransactionMatchingAgent**: Uses LLM to match transactions between bank and book records.
+- **DiscrepancyDetectorAgent**: Identifies and explains unreconciled items.
+- **AutoFixSuggestionAgent**: Suggests fixes for discrepancies using LLM.
+- **ReconciliationKnowledgeAgent**: Answers user queries using a RAG pipeline over a custom knowledge base.
+
+### RAG Implementation
+- Knowledge base files are embedded and stored in a vector DB (`Chroma`).
+- User queries are answered using retrieval-augmented LLMs.
+
+### GenAI Usage
+- Uses `langchain`, `langchain-google-genai`, and `Chroma` for LLM and vector search.
+- Powered by Gemini models.
+
+---
+
+## Setup & Usage
+
+1. **Unzip and Setup**
+    ```sh
+    unzip bank_reconciliation.zip
+    cd bank_reconciliation
+    python3 -m venv venv
+    source venv/bin/activate
+    pip install -r requirements.txt
+    ```
+
+2. **Run Backend**
+    ```sh
+    uvicorn api:app --reload
+    ```
+
+3. **Run Frontend**
+    ```sh
+    streamlit run app.py
+    ```
+
+4. **(Optional) Initialize Knowledge Base**
+    ```sh
+    python bank_reconciliation/backend/scripts/initialize_knowledge_base.py
+    ```
+
+---
+
+## Solution Impact
+
+This solution automates and accelerates the reconciliation process, reducing manual effort and errors. It provides actionable suggestions and leverages best practices from a knowledge base, making it practical for accountants and finance teams.
+
+---
+
+## Example
+
+- Upload your bank and book CSVs.
+- The system matches transactions, highlights discrepancies, and suggests fixes.
+- Ask questions about reconciliation standards or best practices in the chat.
+
+---
+
+## Dependencies
+
+See `requirements.txt` for all dependencies, including:
+- `langchain`
+- `langchain-google-genai`
+- `chromadb`
+- `streamlit`
+- `fastapi`
+- `pandas`
+- `faiss-cpu`
+- `rapidfuzz`
+
+---
+
+## Authors & Acknowledgments
+
+- [Your Name]
+- Built for Day 9 of the Agentic AI Workshop.
+
+---
+
+## License
+
+[MIT License or your chosen license]
+
+## Sample Questions for "Ask the Knowledge Agent"
+
+Here are some example questions you can ask the Knowledge Agent:
+
+- What are the common reasons for unreconciled transactions?
+- How do I handle a missing bank transaction?
+- What is the best practice for reconciling large volumes of transactions?
+- How can I investigate an amount mismatch between bank and book records?
+- What are the steps to resolve a date mismatch in reconciliation?
+- Can you explain the process of bank reconciliation?
+- What journal entry should I make for a service charge found only in the bank statement?
+- How do I use the knowledge base in this app?

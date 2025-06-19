@@ -1,0 +1,83 @@
+Accounting Standards for Bank Reconciliation
+
+1. GAAP Requirements
+- Bank reconciliations must be performed regularly
+- All discrepancies must be investigated and resolved
+- Adjustments must be properly documented and approved
+- Supporting documentation must be maintained
+
+2. Internal Control Standards
+- Segregation of duties between recording and reconciling
+- Dual approval for significant adjustments
+- Regular review by management
+- Documentation of all reconciliation activities
+
+3. Audit Requirements
+- Maintain reconciliation records for at least 7 years
+- Document all adjustments with supporting evidence
+- Maintain clear audit trail
+- Regular internal and external audits
+
+4. Transaction Recording Standards
+- Record transactions in the correct accounting period
+- Use proper account classifications
+- Document all journal entries
+- Maintain supporting documentation
+
+5. Reconciliation Documentation
+- Bank statements
+- Reconciliation worksheets
+- Adjustment documentation
+- Approval records
+- Supporting evidence
+
+6. Error Correction Procedures
+- Identify the nature of the error
+- Document the correction process
+- Obtain necessary approvals
+- Update records accordingly
+- Maintain audit trail
+
+7. Best Practices for Different Account Types
+a) Cash Accounts:
+- Daily reconciliation for high-volume accounts
+- Weekly reconciliation for standard accounts
+- Monthly reconciliation for low-volume accounts
+
+b) Investment Accounts:
+- Monthly reconciliation
+- Verify all interest and dividend transactions
+- Confirm market value calculations
+
+c) Credit Card Accounts:
+- Monthly reconciliation
+- Verify all charges and payments
+- Check for unauthorized transactions
+
+8. Compliance Requirements
+- Follow regulatory guidelines
+- Maintain proper documentation
+- Implement internal controls
+- Regular compliance reviews
+
+9. Technology Standards
+- Use secure systems for reconciliation
+- Implement automated controls
+- Maintain data backup
+- Ensure system access controls
+
+10. Reporting Requirements
+- Regular reconciliation reports
+- Exception reports
+- Adjustment summaries
+- Compliance reports
+
+Bank Reconciliation – Expert Content (ICAI, Blogs, YouTube)
+
+1. As per ICAI guidelines, every reconciliation statement should clearly identify the period covered and the sources of data (ICAI, Guidance Note on Bank Reconciliation).
+2. Always match the opening balances of the bank statement and the books before starting reconciliation (ICAI).
+3. Common reasons for mismatches include: outstanding cheques, direct credits/debits by the bank, bank charges, and errors in recording (ICAI, AccountingTools Blog).
+4. Use a step-by-step approach: (a) Tick matched items, (b) List unmatched items, (c) Investigate discrepancies, (d) Pass necessary journal entries (YouTube: CA Ravi Taori, "Bank Reconciliation Statement").
+5. For large volumes, use automated tools or scripts to speed up matching and reduce manual errors (AccountingTools Blog, YouTube: FinTech Academy).
+6. Always document the reasons for each unreconciled item for audit trail and future reference (ICAI).
+7. Regular reconciliation (monthly or more frequent) is recommended to detect fraud and errors early (ICAI, Blogs). 
