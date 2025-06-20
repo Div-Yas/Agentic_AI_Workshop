@@ -1,0 +1,31 @@
+EMPLOYMENT CONTRACT
+
+Employee Information:
+- Employee ID: EMP001
+- Employee Name: John Doe
+- Designation: Software Engineer
+- Department: Engineering
+- Join Date: 2024-01-15
+
+Salary Structure:
+- Basic Salary: 50000 INR
+- House Rent Allowance (HRA): 20000 INR
+- Leave Travel Allowance (LTA): 8000 INR
+- Variable Pay: 10000 INR
+- Performance Bonus: 15000 INR
+- Other Allowances: 5000 INR
+
+Statutory Obligations:
+- Provident Fund (PF)
+- Employee State Insurance (ESI)
+- Gratuity
+- Tax Deducted at Source (TDS)
+
+Terms and Conditions:
+1. This is a full-time employment contract
+2. Salary will be paid monthly on the 1st of each month
+3. All statutory deductions will be applied as per government regulations
+4. Performance bonuses are subject to company performance and individual performance
+5. HRA is subject to actual rent receipts and tax regulations
+
+This contract is valid from 2024-01-15 and will be reviewed annually. 
